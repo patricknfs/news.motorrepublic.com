@@ -627,7 +627,7 @@ define('CLICKTRACK_SHOWDETAIL', 0);
 //   eg if your webserver root is /home/user/public_html
 //   then the images directory is /home/user/public_html/uploadimages
 // This is a potential security risk, so read README.security for more information
-define('UPLOADIMAGES_DIR', 'uploadimages');
+define('UPLOADIMAGES_DIR', 'images');
 
 //# for the above, you can also use subdirectories, for example
 //define("UPLOADIMAGES_DIR","images/newsletter/uploaded");
@@ -712,8 +712,8 @@ $database_module = 'mysqli.inc';
 // you can store sessions in the database instead of the default place by assigning
 // a tablename to this value. The table will be created and will not use any prefixes
 // this only works when using mysql and only for administrator sessions
-// $SessionTableName = "phplistsessions";
-
+$SessionTableName = "phplistsessions";
+$require_login = 0
 /*
 
 =========================================================================
