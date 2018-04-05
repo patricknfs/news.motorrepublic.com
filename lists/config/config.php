@@ -19,13 +19,13 @@
 $database_host = 'localhost';
 
 // what is the name of the database we are using
-$database_name = 'phplistdb';
+$database_name = 'news';
 
 // what user has access to this database
-$database_user = 'phplist';
+$database_user = 'paperboy';
 
 // and what is the password to login to control the database
-$database_password = 'phplist';
+$database_password = 'F0k0Dm%Hd^vAukib';
 
 // if you have an SMTP server, set it here. Otherwise it will use the normal php mail() function
 //# if your SMTP server is called "smtp.mydomain.com" you enter this below like this:
