@@ -627,7 +627,7 @@ define('CLICKTRACK_SHOWDETAIL', 0);
 //   eg if your webserver root is /home/user/public_html
 //   then the images directory is /home/user/public_html/uploadimages
 // This is a potential security risk, so read README.security for more information
-define('UPLOADIMAGES_DIR', 'uploadimages');
+define('UPLOADIMAGES_DIR', 'images');
 
 //# for the above, you can also use subdirectories, for example
 //define("UPLOADIMAGES_DIR","images/newsletter/uploaded");

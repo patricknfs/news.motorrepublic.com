@@ -109,3 +109,12 @@ $bounce_unsubscribe_threshold = 5;
 // check the extended config for more info
 // in most cases, it is fine to leave this as it is
 define('HASH_ALGO', 'sha256');
+
+// If you want to upload images in the editor, you need to specify the location
+// of the directory where the images go. This needs to be writable by the webserver,
+// and it needs to be in your public document (website) area
+// the directory is relative to the webserver root directory
+//   eg if your webserver root is /home/user/public_html
+//   then the images directory is /home/user/public_html/uploadimages
+// This is a potential security risk, so read README.security for more information
+define('UPLOADIMAGES_DIR', 'images');
