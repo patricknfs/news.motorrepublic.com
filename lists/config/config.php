@@ -38,7 +38,7 @@ define('PHPMAILERHOST', '');
 // this is here, to make sure you edited the config file and mails are not sent "accidentally"
 // on unmanaged systems
 
-define('TEST', 1);
+define('TEST', 0);
 
 /*
 
