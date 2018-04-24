@@ -1004,16 +1004,6 @@ header {
   header #logoimg {
     width: 30em;
     margin: auto; }
-    @media screen and (min-width: 480px) and (max-width: 900px) {
-      header #logoimg {
-        width: 14em;
-        margin: 0.5em 1em 0.5em 1em;
-        float: left; } }
-    @media screen and (min-width: 900px) {
-      header #logoimg {
-        width: 20em;
-        margin: 0.7em 1em 0.5em 1em;
-        float: left; } }
 
 #hero {
   min-height: 25em;
