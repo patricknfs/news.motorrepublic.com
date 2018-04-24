@@ -1002,9 +1002,8 @@ header {
     header {
       height: 5.4em; } }
   header #logoimg {
-    width: 12em;
-    margin: 0.7em 0 0 0.5em;
-    float: left; }
+    width: 30em;
+    margin: auto; }
     @media screen and (min-width: 480px) and (max-width: 900px) {
       header #logoimg {
         width: 14em;
