@@ -121,6 +121,14 @@ define('UPLOADIMAGES_DIR', 'images');
 // If you want to remove the image from the HTML emails, set this constant
 // to be 1, the HTML emails will then only add a line of text as signature
 define('EMAILTEXTCREDITS', 1);
+
+
+// to avoid overloading the server that sends your email, you can add a little delay
+// between messages that will spread the load of sending
+// you will need to find a good value for your own server
+// value is in seconds, and you can use fractions, eg "0.5" is half a second
+// (or you can play with the autothrottle below)
+define('MAILQUEUE_THROTTLE', 0);
 // define the amount of emails you want to send per period. If 0, batch processing
 // is disabled and messages are sent out as fast as possible
 define('MAILQUEUE_BATCH_SIZE', 7000);
