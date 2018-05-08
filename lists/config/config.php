@@ -141,4 +141,4 @@ define('MAILQUEUE_BATCH_PERIOD', 3600);
 // and MAILQUEUE_BATCH_PERIOD being a positive value
 // it still needs tweaking, so send your feedback to mantis.phplist.com if you find
 // any issues with it
-define('MAILQUEUE_AUTOTHROTTLE', 1);
+define('MAILQUEUE_AUTOTHROTTLE', 0);
