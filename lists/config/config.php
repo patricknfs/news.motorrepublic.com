@@ -121,24 +121,3 @@ define('UPLOADIMAGES_DIR', 'images');
 // If you want to remove the image from the HTML emails, set this constant
 // to be 1, the HTML emails will then only add a line of text as signature
 define('EMAILTEXTCREDITS', 1);
-
-
-// to avoid overloading the server that sends your email, you can add a little delay
-// between messages that will spread the load of sending
-// you will need to find a good value for your own server
-// value is in seconds, and you can use fractions, eg "0.5" is half a second
-// (or you can play with the autothrottle below)
-define('MAILQUEUE_THROTTLE', 0);
-// define the amount of emails you want to send per period. If 0, batch processing
-// is disabled and messages are sent out as fast as possible
-define('MAILQUEUE_BATCH_SIZE', 7000);
-// define the length of one batch processing period, in seconds (3600 is an hour)
-define('MAILQUEUE_BATCH_PERIOD', 3600);
-// Mailqueue autothrottle. This will try to automatically change the delay
-// between messages to make sure that the MAILQUEUE_BATCH_SIZE (above) is spread evently over
-// MAILQUEUE_BATCH_PERIOD, instead of firing the Batch in the first few minutes of the period
-// and then waiting for the next period. This only works with mailqueue_throttle off
-// and MAILQUEUE_BATCH_PERIOD being a positive value
-// it still needs tweaking, so send your feedback to mantis.phplist.com if you find
-// any issues with it
-define('MAILQUEUE_AUTOTHROTTLE', 0);
